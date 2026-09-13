@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FissionOS 官网</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url('背景.png') no-repeat center center fixed;
+            background-size: cover;
+            font-family: "Microsoft Yahei", sans-serif;
+            text-align: center;
+            padding-top: 70px;
+            color: #000;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 65px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            z-index: 999;
+        }
+
+        .navbar a {
+            color: #000000;
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-shadow: 0 0 1px #000
+        }
+
+        .navbar a:hover {
+            color: #42a5f5;
+            transform: scale(1.05);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        h1, h2, h3 {
+            text-shadow: 0 0 3px #000;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 800px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .download {
+            display: inline-block;
+            padding: 12px 28px;
+            margin: 15px 0;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .download:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="navbar">
+    <a href="#home">主页</a>
+    <a href="#download">下载</a>
+    <a href="#notice">支持</a>
+    <a href="#about">关于</a>
+</div>
+
+<img src="Fission.png" width="150">
+<h1>欢迎来到 Fission 官网</h1>
+
+<div class="card" id="home">
+    <h1>主页</h1>
+    <img src="FissionOS 1.5.png" width="300">
+    <h1>创新</h1>
+    <h2>我们打造的项目是具有创新的,且抛弃了之前难用</h2>
+    <h2>的内核,使用我们最新开发的Vast内核,让操作</h2>
+    <h2>更加丝滑</h2>
+
+    <img src="FissionOS 2.0.png" width="300">
+    <h1>开源</h1>
+    <h2>我们打造的项目是开源的,让大家可以基于我们的</h2>
+    <h2>项目开发更有趣的项目</h2>
+</div>
+
+<div class="card" id="download">
+    <h1>下载</h1>
+
+    <img src="Fission 2.0.png" width="280">
+    <h2>      新版scratch伪系统，UI更加美观，添加了音乐播放器和实时时间显示，bug有点多</h2>
+    <h2>      网盘提取码：3592</h2>
+    <a class="download" href="https://4001792557.share.123pan.cn/123pan/x39eMh-ZI1SH?pwd=3592#" >
+        下载 FissionOS 2.0
+    </a>
+
+    <br><br>
+
+    <img src="Fission 2.3.png" width="280">
+    <h2>这是我们开发的一款新型scratch伪系统，UI更加美观，我们添加了日历,能让用户知道时间，而且我们把登录界面做的更好，但系统内存在的 bug 也不少，我们日后会修复和改进系统，给你带来更好的体验</h2>
+    <h2>      网盘提取码：1209</h2>
+    <a class="download" href="https://4001792557.share.123pan.cn/123pan/x39eMh-xNUSH?pwd=1209#">
+        下载 FissionOS 2.3
+    </a>
+</div>
+
+<div class="card" id="notice">
+    <h1>支持</h1>
+    <h1>2026年</h1>
+    <h2>    .3月05日对FissionOS 1.0停止所有技术支持</h2>
+    <h2>    .9月10日对FissionOS 1.5停止所有技术支持</h2>
+</div>
+
+<div class="card" id="about">
+    <h1>关于</h1>
+    <h2>Fission官网是由B站的清水自白创建的一个网站，</h2>
+    <h2>其目的是为了让用户更好的认识我们的伪系统，而</h2>
+    <h2>且我们秉持着开源的原则，让用户下载再基于它开</h2>
+    <h2>发更好、更快、更流畅的scratch伪系统</h2>
+</div>
+
+</body>
+</html>
